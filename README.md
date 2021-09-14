@@ -81,10 +81,14 @@ matchengine
 
 [HTTP Protocol](https://github.com/viabtc/viabtc_exchange_server/wiki/HTTP-Protocol) and [Websocket Protocol](https://github.com/viabtc/viabtc_exchange_server/wiki/WebSocket-Protocol) documents are available in Chinese. Should time permit, we will have it translated into English in the future.
 
+There is also a third-party [OpenRPC Document](https://github.com/ceyonur/viabtc-openrpc) available.
+
 ### Third-party Clients
 
 - [Python3 API realisation](https://github.com/testnet-exchange/python-viabtc-api)
 - [Ruby Gem 💎](https://github.com/krmbzds/viabtc)
+- [C# API](https://github.com/djpnewton/via_jsonrpc)
+- [HTML UI to test exchange API](https://github.com/djpnewton/viaxchtest)
 
 ## Websocket authorization
 
@@ -95,9 +99,3 @@ To accommodate this method your exchange frontend will need to supply an interna
 The internal authorization endpoint is defined by the `auth_url` setting in the config file (`accessws/config.json`).
 
 Example response: `{"code": 0, "message": null, "data": {"user_id": 1}}`
-
-## Donation
-
-* BTC/BCH: 1LB34q942fRN8ukMoaLJNWBjm5erZccgUb
-* ETH: 0xd6938fcad9aa20de7360ce15090ec2e036867f27
-
